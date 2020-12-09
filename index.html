@@ -2,6 +2,7 @@
 <html>
 <head>
 	<title>CGPA Calculator</title>
+	<link rel="stylesheet" src="style.css">
 </head>
 <body>
 <form name="PresentCG">
@@ -9,6 +10,7 @@
 	Total Credits Cleared: <input type="number" name="tpastcredits" id="tpastcredits">
 	</form>
 	<form name="Expected">
+		<div class="example">
 		          <table>
 				  <tr>
 				    <th></th>
@@ -76,6 +78,8 @@
 				    <td><input type="number" name="sub12credits" id="sub12credits" value="0"></td>
 				  </tr>
 				</table>
+		</div>
+	</form>
 	<form>
 		<input type="Submit" name="Submit!" onclick="cg()">
 	</form>
